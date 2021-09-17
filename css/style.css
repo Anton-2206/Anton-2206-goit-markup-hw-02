@@ -1,0 +1,13 @@
+:root {
+  --primary-title-color: #ffffff;
+  --secondary-title-color: #303030;
+  --third-title-color: blue;
+  --primary-text-color: tomato;
+  --secondary-text-color: teal;
+  --accent-color: orange;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  letter-spacing: 0.02em;
+}
