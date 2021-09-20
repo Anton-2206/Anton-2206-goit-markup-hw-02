@@ -20,6 +20,7 @@ body {
   letter-spacing: 0.02em;
 }
 .btn {
+  cursor: pointer;
   font-weight: 700;
   font-size: 16px;
   line-height: 1.88;
@@ -30,7 +31,6 @@ body {
 .header-logo,
 .footer-logo {
   font-family: Raleway;
-  font-style: normal;
   font-weight: 700;
   font-size: 26px;
   line-height: calc(31 / 26);
@@ -52,9 +52,15 @@ body {
   letter-spacing: 0.02em;
   color: var(--header-nav-item-color);
 }
-.nav-item:hover {
+.nav-link {
+  color: var(--header-nav-item-color);
+}
+.nav-link:hover {
   cursor: pointer;
   color: var(--accent-color);
+}
+.current {
+  color: green;
 }
 .header-contact-link {
   font-weight: 500;
@@ -76,7 +82,6 @@ body {
   letter-spacing: 0.06em;
   text-transform: uppercase;
   color: var(--primary-title-color);
-  background-color: #2f303a;
 }
 .hero {
   background-color: #2f303a;
@@ -171,7 +176,6 @@ body {
   color: var(--third-title-color);
 }
 .all-about-text {
-  font-weight: 400;
   font-size: 16px;
   line-height: 1.87;
   letter-spacing: 0.03em;
