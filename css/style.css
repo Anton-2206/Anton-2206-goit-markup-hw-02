@@ -147,10 +147,10 @@ body {
   color: rgba(255, 255, 255, 0.6);
 }
 /*--------- portfolio------ */
-/*--------- all------ */
-.all-btn,
-.all-btn:hover,
-.all-btn:focus {
+/*--------- filter------ */
+.filter-btn,
+.filter-btn:hover,
+.filter-btn:focus {
   font-family: inherit;
   border: none;
   font-weight: 500;
@@ -162,20 +162,20 @@ body {
   border-radius: 4px;
   background-color: #f5f4fa;
 }
-.all-btn:hover,
-.all-btn:focus {
+.filter-btn:hover,
+.filter-btn:focus {
   cursor: pointer;
   color: #ffffff;
   background-color: #2196f3;
 }
-.all-about-title {
+.filter-about-title {
   font-weight: 700;
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
   color: var(--third-title-color);
 }
-.all-about-text {
+.filter-about-text {
   font-size: 16px;
   line-height: 1.87;
   letter-spacing: 0.03em;
