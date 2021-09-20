@@ -60,7 +60,7 @@ body {
   color: var(--accent-color);
 }
 .current {
-  color: green;
+  color: #2196f3;
 }
 .header-contact-link {
   font-weight: 500;
